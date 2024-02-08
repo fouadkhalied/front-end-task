@@ -1,0 +1,284 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav a
+{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.brand2 
+{
+    position: relative;
+    left: 350px;
+}
+.brand2 #user
+{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+nav a:hover
+{
+    color: white;
+}
+.image
+{
+    width: 90%;
+    margin: auto;
+}
+.content , .buttons
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.buttons i
+{
+    position: relative;
+    top: 10px;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons button
+{
+    height: 40px;
+}
+
+/*  //////////////////////////////////////////////////////////  */
+
+
+.search 
+{
+    width: 90%;
+    margin: auto;
+}
+/*/////////////////////////////////////////////////////////////////*/
+.products_cart .buttons .tgh
+{
+    justify-content: space-around;
+}
+.products_cart .buttons .tgh p
+{
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    top: 7px;
+}
+.products
+{
+    margin-top: 40px;
+    margin: auto;
+}
+.bnb
+{
+    justify-content: space-around;
+}
+.bnb p 
+{
+    position: relative;
+    top: 6px;
+}
+.products_cart .card .icon_plus .cd {
+    position: relative;
+    bottom: 10px;
+    background-color: white;
+    border: none;
+}
+.products_cart .card .removetocar
+{
+     width: 100px;
+}
+.products_cart .card
+{
+    float: left;
+    width: calc(100% / 2.3);
+    height: 230px;
+    box-shadow: 0px 20px 20px #757676;
+    margin: 40px;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.products .card 
+{
+    float: left;
+    width: calc(100% / 4);
+    height: 370px;
+    box-shadow: 0px 20px 20px #757676;
+    margin: 40px;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.products .card:hover
+{
+    transform: scale(1.05);
+}
+.products p
+{
+    font-weight: 700;
+}
+.num
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 70%;
+    text-align: center;
+    background-color: black;
+}
+.cart
+{
+    width: 200px;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: rgb(224, 223, 223);
+    border-radius: 7px;
+}
+.fa-plus
+{
+    color: green;
+}
+.fa-minus
+{
+    color: red;
+}
+.element_div
+{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.element_div button
+{
+    position: relative;
+    border: none;
+    background-color: white;
+}
+.element_div .elem
+{
+    position: relative;
+    left: 10px;
+}
+.element_div p
+{
+    font-weight: 700;
+    display: inline;
+    position: relative;
+    top: 7px;
+}
+.element_div .icon_plus
+{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+/* /////////////////////////////////////////////////////////////// */
+
+
+
+
+.name 
+{
+    width: 50%;
+}
+.names .btn
+{
+    margin-top: 60px;
+    display: block;        
+    margin: auto;
+}
+.names
+{
+    width: 60%;
+    margin: auto;   
+    margin-top: 90px;
+}
+.names label
+{
+    font-weight: bold;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 410px) {
+     .form-select
+     {
+        margin-right: 10px;
+     }
+}
+
+@media only screen and (max-width: 420px) {
+    .form-select
+    {
+        margin-bottom: 10px;
+    }
+    .search form
+    { 
+       display: flex;
+       flex-direction: column;
+    }
+    .products
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .products_cart 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .products .card
+    {
+        width: 270px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .products_cart .card
+    {
+        width: 270px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .price
+    {
+        margin-top: 50px;
+    }
+    .products_cart .buttons
+    {
+        width: 100%;
+    }.products_cart .removetocart
+    {
+        width: 70%;
+    }
+    .names
+    {
+       width: 100%;        
+    }
+    .names .btn
+    {
+        margin-top: 60px;
+        display: block;        
+        margin: auto;
+    }
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light mb-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="font-weight: 600;">Online shopping</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul id="user_info" class="navbar-brand brand2" style="display: none;">
+                <li id="user"></li>
+              </ul>
+            </ul>
+            <form class="d-flex">
+              <i class="fas fa-cart-plus ico"></i>
+              <div class="cart bg-light" style="display: none;">
+                  
+              </div>
+            </form>
+            
+            <div class="num">
+              <h6 style="color: white;">0</h6>
+            </div>
+
+            
+            <form class="d-flex links" role="search">
+                <button class="btn mx-2 btn-dark" type="submit"><a href="login.html">Login</a></button>
+                <button class="btn btn-dark" type="submit"><a href="register.html">Register</a></button>
+            </form>
+            <form class="links2" style="display: none;" role="search">
+              <button class="btn mx-2 btn-dark" id="Logout" type="submit"><a href="index.html">Logout</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="search">
+        <form class="d-flex search_by_cat" role="search">
+            <select class="form-select asde" aria-label="Default select example">
+                <option selected value="0">Search by Name</option>
+                <option value="1">Search by Category</option>
+              </select>
+            <input class="form-control me-2 search_by_control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+
+  
+    <div class="products container">
+
+    </div>
+    
+    
+
+
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+    <script  src="js/script.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>
